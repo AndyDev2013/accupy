@@ -27,11 +27,6 @@ url_for = base_url + loc_fore
 #Search for location id and store
 urlsend = url_loc + "?"  + "apikey=" + api_key + "&q=" + sp
 myURL = urlopen(urlsend).read()
-#print(myURL)
-#if (len(json.loads(myURL)) < 1):
-#    print('future')
-
-
 results = json.loads(myURL)[0]
 name = results.get('LocalizedName')
 country = results.get('Country').get('EnglishName')
