@@ -5,6 +5,8 @@ Simple, initially procedural, investigation of the Accuweather API.
 
 Get an API key from [the Accuweather Developer Portal](http://developer.accuweather.com/home). Create an application and copy your key into a file called globs.py as follows:
 
+**Create a file called _globs.py_ and add the following replacing the text as required** 
+
 API_KEY = "The Key Provided for your App at the above url"
 
 Hope to eventually create a Flask app to consume the API.
